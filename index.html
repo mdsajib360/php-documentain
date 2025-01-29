@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>technical-documentation-page</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>PHP Documentation
+        </header>
+        <ul>
+            <li><a class="nav-link" href="#Introduction">Introduction
+            </a></li>
+            <li><a class="nav-link" href="#PHP_Installation">PHP Installation
+            </a></li>
+            <li><a class="nav-link" href="#PHP_Syntax">PHP Syntax
+            </a></li>
+            <li><a class="nav-link" href="#PHP_Variables">PHP Variables</a></li>
+            <li><a class="nav-link" href="#PHP_Comments">PHP Comments
+            </a></li>
+            <li><a class="nav-link" href="#PHP_echo_and_print_Statements">PHP echo and print Statements            </a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <article>
+                <h1 style="font-size:32px; font-weight: 400;">What is PHP?</h1>
+               <ul>
+                    <li>PHP is an acronym for "PHP: Hypertext Preprocessor" </li>
+                        <li> PHP is a widely-used, open source scripting language</li>
+                       <li>PHP scripts are executed on the server</li> 
+                       <li> PHP is free to download and use</li>
+                </ul>
+                <h1 style="font-size:32px; font-weight: 400;">What Can PHP Do? </h1>
+               
+                <ul>
+                    <li>PHP can generate dynamic page content</li>
+                    <li>PHP can create, open, read, write, delete, and close files on the server</li>
+                    <li>PHP can collect form data</li>
+                    <li>PHP can send and receive cookies</li>
+                    <li>PHP can add, delete, modify data in your database</li>
+                    <li>PHP can be used to control user-access</li>
+                    <li>PHP can encrypt data</li>
+                  </ul>
+             
+
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="PHP_Installation">
+            <header>PHP Installation</header>
+            <article>
+                <p>What Do I Need?
+                </p>
+                <p>To start using PHP, you can:
+                </p>
+                <ul>
+                    <li>Find a web host with PHP and MySQL support
+                       
+                        </li>
+                        <li> Install a web server on your own PC, and then install PHP and MySQL</li>
+                </ul>
+                <p>Set Up PHP on Your Own PC
+                </p>
+                <ul>
+                    <li>install a web server</li>
+<li>install PHP</li>
+<li>install a database, such as MySQL</li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="PHP_Syntax">
+            <header>PHP Syntax </header>
+            <article>
+                <p>A PHP script can be placed anywhere in the document.</p>
+                <p class="php_starting">A PHP script starts with <code >&lt;?php</code> and ends with <code >?&gt;</code> :                </p>
+                <br>
+                <code>
+                    &lt;?php <br>
+                    // PHP code goes here <br>
+                    echo "Hello, World!"; <br>
+                    ?&gt;
+                    </code>
+                <h3>Example</h3>
+                <p>A simple .php file with both HTML code and PHP code:
+                </p>
+                <code>
+                    &lt;!DOCTYPE html&gt; <br>
+                    &lt;html&gt; <br>
+                    &lt;body&gt; <br>
+                    <br>
+                    &lt;h1&gt;My first PHP page&lt;/h1&gt; <br>
+                    <br>
+                    &lt;?php <br>
+                    echo "Hello World!"; <br>
+                    ?&gt; <br>
+                    <br>
+                    &lt;/body&gt; <br>
+                    &lt;/html&gt;
+                    </code>
+            </article>
+        </section>
+        <section class="main-section" id="PHP_Variables">
+            <header>PHP Variables</header>
+            <article>
+                <p>In PHP, a variable starts with the $ sign, followed by the name of the variable:</p>
+                <code>
+                    &lt;?php <br>
+                    $txt = "Hello world!"; <br>
+                    $x = 5; <br>
+                    $y = 10.5; <br>
+                    ?&gt;
+                </code>
+            </article>
+         </section>
+        <section class="main-section" id="PHP_Comments">
+            <header>PHP Comments</header>
+            <article>
+                <p>A comment in PHP code is a line that is not executed as a part of the program. Its only purpose is to be read by someone who is looking at the code.
+
+                </p>
+                <p>Comments can be used to:
+
+                </p>
+                <ul>
+                    <li>Let others understand your code
+                    </li>
+                    <li>Remind yourself of what you did - Most programmers have experienced coming back to their own work a year or two later and having to re-figure out what they did. Comments can remind you of what you were thinking when you wrote the code
+                    </li>
+                    <li>Leave out some parts of your code
+                    </li>
+                </ul>
+                <code>
+                    // This is a single-line comment <br>
+
+# This is also a single-line comment <br>
+
+/* This is a
+multi-line comment */ 
+                </code>
+            </article>
+        </section>
+        <section class="main-section" id="PHP_echo_and_print_Statements">
+            <header>PHP echo and print Statements
+
+            </header>
+            <article>
+
+                <p>With PHP, there are two basic ways to get output: <strong>echo</strong> and <strong>print</strong>.
+
+                </p>
+                <p>In this tutorial we use <strong>echo</strong> or <strong>print</strong> in almost every example. So, this chapter contains a little more info about those two output statements.</p>
+                <h3>Examples:</h3>
+                <code>
+                    &lt;?php <br>
+                    echo "Hello World!"; <br>
+                    ?&gt; <br>
+                    <br>
+                    &lt;?php <br>
+                    print "Hello World!"; <br>
+                    ?&gt;
+                    </code>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
