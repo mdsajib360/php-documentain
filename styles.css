@@ -72,3 +72,23 @@ code:not(.php_starting code){
 p{
     font-size: 15px;
 }
+
+@media only screen and (max-width: 768px) {
+    nav{
+        position: sticky;
+        width: 100%;
+        border-right: none;
+        
+    }
+ 
+    nav a{
+        text-align: center;
+    }
+    #main-doc{
+        top: 37%;
+        padding: 0;
+        margin: 0;
+        
+    }
+   
+}
